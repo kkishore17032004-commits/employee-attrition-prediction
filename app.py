@@ -24,7 +24,7 @@ from plotly.subplots import make_subplots
 # ---------------------------------------------------------------------------
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_PATH = BASE_DIR / "WA_Fn-UseC_-HR-Employee-Attrition.csv"
+DATA_PATH = BASE_DIR / "DATASET.csv"
 MODEL_PATH = BASE_DIR / "attrition_model.pkl"
 LOGO_PATH = BASE_DIR / "assets" / "company_logo.png"
 REPORTS_DIR = BASE_DIR / "reports"
