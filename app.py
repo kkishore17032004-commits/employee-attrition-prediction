@@ -309,7 +309,7 @@ def load_dataset() -> pd.DataFrame:
     if not DATA_PATH.exists():
         raise FileNotFoundError(
             f"Dataset not found at {DATA_PATH.name}. "
-            "Please ensure WA_Fn-UseC_-HR-Employee-Attrition.csv is in the project folder."
+            "Please ensure DATASET.csv is in the project folder."
         )
     df = pd.read_csv(DATA_PATH)
     if "Attrition" not in df.columns:
