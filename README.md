@@ -17,7 +17,7 @@ Employee_Attrition_Prediction/
 │
 ├── app.py                                      # Main Streamlit application
 ├── attrition_model.pkl                         # Trained model bundle (joblib)
-├── WA_Fn-UseC_-HR-Employee-Attrition.csv       # IBM HR dataset
+├── DATASET.csv                                 # IBM HR dataset
 ├── train_model.py                              # Model training script
 ├── requirements.txt                            # Python dependencies
 ├── README.md                                   # Project documentation
